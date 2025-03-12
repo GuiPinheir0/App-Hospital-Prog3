@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="720.0" prefWidth="1280.0" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="prog3.apphospital2.TelaEnfermeirosController">
+   <children>
+      <Button fx:id="cadastrarEnfermeiroBT" layoutX="817.0" layoutY="595.0" mnemonicParsing="false" onAction="#telaCadastroEnfermeiro" prefHeight="25.0" prefWidth="116.0" text="Cadastrar" />
+      <TableView fx:id="tabelaEnfermeiros" layoutX="82.0" layoutY="71.0" prefHeight="488.0" prefWidth="1117.0">
+        <columns>
+          <TableColumn fx:id="idC" prefWidth="54.0" text="id" />
+            <TableColumn fx:id="nomeC" prefWidth="125.0" text="Nome" />
+            <TableColumn fx:id="dataNascimentoC" prefWidth="122.0" text="Data de Nascimento" />
+            <TableColumn fx:id="enderecoC" prefWidth="131.0" text="Endereço" />
+            <TableColumn fx:id="generoC" prefWidth="108.0" text="Genero" />
+            <TableColumn prefWidth="305.0" text="Contato">
+               <columns>
+                  <TableColumn fx:id="celularC" prefWidth="123.0" text="Celular" />
+                  <TableColumn fx:id="emailC" prefWidth="123.0" text="Email" />
+               </columns>
+            </TableColumn>
+            <TableColumn fx:id="SetorC" prefWidth="105.0" text="Setor" />
+            <TableColumn fx:id="chSemanalC" prefWidth="83.0" text="CH Semanal" />
+            <TableColumn fx:id="treinadoOpRXC" prefWidth="142.0" text="Treinada para Op. RX&gt;" />
+        </columns>
+      </TableView>
+      <Button fx:id="editarBT" layoutX="950.0" layoutY="595.0" mnemonicParsing="false" onAction="#editarEnfermeiro" prefHeight="25.0" prefWidth="116.0" text="Editar" />
+      <Button fx:id="excluirBT" layoutX="1083.0" layoutY="595.0" mnemonicParsing="false" onAction="#excluirEnfermeiro" prefHeight="25.0" prefWidth="116.0" text="Excluir" />
+      <Button fx:id="voltarMenu" layoutX="82.0" layoutY="595.0" mnemonicParsing="false" onAction="#voltarMenu" prefHeight="25.0" prefWidth="116.0" text="Voltar" />
+      <Label alignment="TOP_CENTER" layoutX="331.0" prefHeight="17.0" prefWidth="619.0" text="ENFERMEIROS">
+         <font>
+            <Font name="System Bold" size="48.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>

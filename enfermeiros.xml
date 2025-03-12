@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Enfermeiros>
+    <Enfermeiro>
+        <contato>
+            <celular>22988765543</celular>
+            <email>lais123@gmail.com</email>
+            <telefone>2227768938</telefone>
+        </contato>
+        <dataNascimento>2000-11-08T00:00:00-02:00</dataNascimento>
+        <endereco>
+            <bairro>Centro</bairro>
+            <cep>26738948</cep>
+            <cidade>Macaé</cidade>
+            <estado>RJ</estado>
+            <numero>123</numero>
+            <rua>Rua 14</rua>
+        </endereco>
+        <genero>FEMININO</genero>
+        <nomeCompleto>Laís F</nomeCompleto>
+        <chSemanal>30</chSemanal>
+        <dadoPessoal>
+            <contato>
+                <celular>22988765543</celular>
+                <email>laisenfermagem@gmail.com</email>
+                <telefone>2227768938</telefone>
+            </contato>
+            <dataNascimento>2000-11-08T00:00:00-02:00</dataNascimento>
+            <endereco>
+                <bairro>Centro</bairro>
+                <cep>26738948</cep>
+                <cidade>Macaé</cidade>
+                <estado>RJ</estado>
+                <numero>123</numero>
+                <rua>Rua 14</rua>
+            </endereco>
+            <genero>FEMININO</genero>
+            <nomeCompleto>Laís F</nomeCompleto>
+        </dadoPessoal>
+        <setor>Raio X</setor>
+        <idEnfermeiro>1</idEnfermeiro>
+        <treinadoOpRX>true</treinadoOpRX>
+    </Enfermeiro>
+    <Enfermeiro>
+        <contato>
+            <celular>22988988998</celular>
+            <email>ruangameplays@gmail.com</email>
+            <telefone></telefone>
+        </contato>
+        <dataNascimento>1992-11-26T00:00:00-02:00</dataNascimento>
+        <endereco>
+            <bairro>Bairro da Gloria</bairro>
+            <cep>389289321</cep>
+            <cidade>Macaé</cidade>
+            <estado>RJ </estado>
+            <numero>89</numero>
+            <rua>Rua R</rua>
+        </endereco>
+        <genero>MASCULINO</genero>
+        <nomeCompleto>Ruan</nomeCompleto>
+        <chSemanal>56</chSemanal>
+        <dadoPessoal>
+            <contato>
+                <celular>22988988998</celular>
+                <email>ruangameplays@gmail.com</email>
+                <telefone></telefone>
+            </contato>
+            <dataNascimento>1992-11-26T00:00:00-02:00</dataNascimento>
+            <endereco>
+                <bairro>Bairro da Gloria</bairro>
+                <cep>389289321</cep>
+                <cidade>Macaé</cidade>
+                <estado>RJ </estado>
+                <numero>89</numero>
+                <rua>Rua R</rua>
+            </endereco>
+            <genero>MASCULINO</genero>
+            <nomeCompleto>Ruan</nomeCompleto>
+        </dadoPessoal>
+        <setor>Pronto socorro</setor>
+        <idEnfermeiro>2</idEnfermeiro>
+        <treinadoOpRX>false</treinadoOpRX>
+    </Enfermeiro>
+    <Enfermeiro>
+        <contato>
+            <celular>22989899999</celular>
+            <email>gabrielaenf@gmail.com</email>
+            <telefone></telefone>
+        </contato>
+        <dataNascimento>1997-12-18T00:00:00-02:00</dataNascimento>
+        <endereco>
+            <bairro>Novo Hrizonte</bairro>
+            <cep>27893890</cep>
+            <cidade>Macaé</cidade>
+            <estado>RJ</estado>
+            <numero>2</numero>
+            <rua>rua A</rua>
+        </endereco>
+        <genero>FEMININO</genero>
+        <nomeCompleto>Gabriela</nomeCompleto>
+        <chSemanal>34</chSemanal>
+        <dadoPessoal>
+            <contato>
+                <celular>22989899999</celular>
+                <email>gabrielaenf@gmail.com</email>
+                <telefone></telefone>
+            </contato>
+            <dataNascimento>1997-12-18T00:00:00-02:00</dataNascimento>
+            <endereco>
+                <bairro>Novo Hrizonte</bairro>
+                <cep>27893890</cep>
+                <cidade>Macaé</cidade>
+                <estado>RJ</estado>
+                <numero>2</numero>
+                <rua>rua A</rua>
+            </endereco>
+            <genero>FEMININO</genero>
+            <nomeCompleto>Gabriela</nomeCompleto>
+        </dadoPessoal>
+        <setor>Geral</setor>
+        <idEnfermeiro>3</idEnfermeiro>
+        <treinadoOpRX>true</treinadoOpRX>
+    </Enfermeiro>
+</Enfermeiros>

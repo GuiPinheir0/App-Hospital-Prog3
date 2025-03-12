@@ -1,0 +1,199 @@
+[
+  {
+    "idPaciente": 1,
+    "idade": 25,
+    "dataCadastro": "2024-11-27",
+    "obsGeral": "asdasdasd",
+    "historicoConsultasMedicas": [
+      {
+        "idConsulta": 2,
+        "idPaciente": 1,
+        "idMedico": 1,
+        "exameQueixa": "dor",
+        "diagnostico": "estresse",
+        "prescricao": "remedio",
+        "indicacaoCirurgica": false
+      }
+    ],
+    "nomeCompleto": "Guilherme",
+    "dataNascimento": "2024-11-13",
+    "endereco": {
+      "rua": "vila C",
+      "numero": 56,
+      "bairro": "riv",
+      "cidade": "Macae",
+      "estado": "RJ",
+      "cep": 27935678
+    },
+    "contato": {
+      "telefone": "22",
+      "celular": "22999998618",
+      "email": "ffcguilherme@gmail.com"
+    },
+    "genero": "MASCULINO"
+  },
+  {
+    "idPaciente": 4,
+    "idade": 27,
+    "dataCadastro": "2024-11-29",
+    "obsGeral": "",
+    "historicoConsultasMedicas": [
+      {
+        "idConsulta": 3,
+        "idPaciente": 4,
+        "idMedico": 1,
+        "exameQueixa": "Dor no ombro",
+        "diagnostico": "fratura",
+        "prescricao": "cirurgia, remedio",
+        "indicacaoCirurgica": true
+      },
+      {
+        "idConsulta": 4,
+        "idPaciente": 4,
+        "idMedico": 3,
+        "exameQueixa": "acidente",
+        "diagnostico": "quebrou ossos",
+        "prescricao": "Caso cirurgico",
+        "indicacaoCirurgica": true
+      }
+    ],
+    "nomeCompleto": "Julia",
+    "dataNascimento": "1997-11-06",
+    "endereco": {
+      "rua": "Rua 3",
+      "numero": 32,
+      "bairro": "Aroeira",
+      "cidade": "Macaï¿½ ",
+      "estado": "RJ",
+      "cep": 28937465
+    },
+    "contato": {
+      "telefone": "",
+      "celular": "22998798768",
+      "email": "ju123@gmail.com"
+    },
+    "genero": "FEMININO"
+  },
+  {
+    "idPaciente": 5,
+    "idade": 23,
+    "dataCadastro": "2024-11-29",
+    "obsGeral": "",
+    "historicoConsultasMedicas": [
+      {
+        "idConsulta": 5,
+        "idPaciente": 5,
+        "idMedico": 2,
+        "exameQueixa": "Acidente de moto, perna quebrada",
+        "diagnostico": "várias fraturas",
+        "prescricao": "Paciente precisa de cirurgia imediata",
+        "indicacaoCirurgica": true
+      }
+    ],
+    "nomeCompleto": "Jose",
+    "dataNascimento": "1998-11-19",
+    "endereco": {
+      "rua": "Rua 4",
+      "numero": 32,
+      "bairro": "Bairro da Gloria",
+      "cidade": "Macaï¿½",
+      "estado": "RJ",
+      "cep": 278987499
+    },
+    "contato": {
+      "telefone": "",
+      "celular": "22987678794",
+      "email": "josejames@gmail.com"
+    },
+    "genero": "MASCULINO"
+  },
+  {
+    "idPaciente": 6,
+    "idade": 26,
+    "dataCadastro": "2024-11-29",
+    "obsGeral": "",
+    "historicoConsultasMedicas": [],
+    "nomeCompleto": "Guilherme Pinheiro",
+    "dataNascimento": "1998-11-17",
+    "endereco": {
+      "rua": "Rua Vila A",
+      "numero": 67,
+      "bairro": "Riviera",
+      "cidade": "Macaï¿½",
+      "estado": "RJ",
+      "cep": 27839039
+    },
+    "contato": {
+      "telefone": "",
+      "celular": "22999888773",
+      "email": "guipinheiro@gmail.com"
+    },
+    "genero": "MASCULINO"
+  },
+  {
+    "idPaciente": 9,
+    "idade": 32,
+    "dataCadastro": "2024-12-09",
+    "obsGeral": "",
+    "historicoConsultasMedicas": [
+      {
+        "idConsulta": 5,
+        "idPaciente": 9,
+        "idMedico": 3,
+        "exameQueixa": "Dor no calcanhar",
+        "diagnostico": "Rompimento do ligamento ",
+        "prescricao": "Caso Cirurgico",
+        "indicacaoCirurgica": true
+      }
+    ],
+    "nomeCompleto": "Osvaldo",
+    "dataNascimento": "2011-12-28",
+    "endereco": {
+      "rua": "rua",
+      "numero": 12,
+      "bairro": "Centro",
+      "cidade": "Macae",
+      "estado": "RJ",
+      "cep": 3898238
+    },
+    "contato": {
+      "telefone": "",
+      "celular": "22989893832",
+      "email": "osvaldo@hotmail.com"
+    },
+    "genero": "MASCULINO"
+  },
+  {
+    "idPaciente": 10,
+    "idade": 18,
+    "dataCadastro": "2024-12-09",
+    "obsGeral": "",
+    "historicoConsultasMedicas": [
+      {
+        "idConsulta": 6,
+        "idPaciente": 10,
+        "idMedico": 3,
+        "exameQueixa": "dor no braço",
+        "diagnostico": "rompeu ligamento",
+        "prescricao": "Paciente precisa de cirurgia",
+        "indicacaoCirurgica": true
+      }
+    ],
+    "nomeCompleto": "Thiago",
+    "dataNascimento": "2024-12-09",
+    "endereco": {
+      "rua": "rua",
+      "numero": 12,
+      "bairro": "Centro",
+      "cidade": "Macaé",
+      "estado": "RJ",
+      "cep": 28371832
+    },
+    "contato": {
+      "telefone": "",
+      "celular": "22999998765",
+      "email": "thiago@gmail.com"
+    },
+    "genero": "MASCULINO"
+  }
+]

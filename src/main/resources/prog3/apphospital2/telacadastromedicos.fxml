@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.CheckBox?>
+<?import javafx.scene.control.ChoiceBox?>
+<?import javafx.scene.control.DatePicker?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane id="AnchorPane" prefHeight="720.0" prefWidth="1280.0" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="prog3.apphospital2.TelaCadastroMedicosController">
+   <children>
+      <Label alignment="TOP_CENTER" layoutX="331.0" layoutY="8.0" prefHeight="17.0" prefWidth="619.0" text="CADASTRO DE MÉDICO">
+         <font>
+            <Font name="System Bold" size="48.0" />
+         </font>
+      </Label>
+      <TextField fx:id="nomeField" layoutX="208.0" layoutY="226.0" prefHeight="25.0" prefWidth="246.0" />
+      <Label layoutX="208.0" layoutY="209.0" prefHeight="17.0" prefWidth="192.0" text="Nome Completo" />
+      <TextField fx:id="telefoneField" layoutX="208.0" layoutY="418.0" prefHeight="25.0" prefWidth="246.0" />
+      <Label layoutX="208.0" layoutY="174.0" prefHeight="26.0" prefWidth="219.0" text="Dados Pessoais ">
+         <font>
+            <Font name="System Bold Italic" size="17.0" />
+         </font>
+      </Label>
+      <Label layoutX="208.0" layoutY="260.0" prefHeight="17.0" prefWidth="192.0" text="Data de nascimento" />
+      <DatePicker fx:id="nascimentoField" layoutX="208.0" layoutY="277.0" prefHeight="25.0" prefWidth="246.0" />
+      <ChoiceBox fx:id="generoBox" layoutX="208.0" layoutY="330.0" prefHeight="25.0" prefWidth="246.0" />
+      <Label layoutX="208.0" layoutY="313.0" prefHeight="17.0" prefWidth="192.0" text="Gênero" />
+      <Label layoutX="518.0" layoutY="176.0" prefHeight="26.0" prefWidth="219.0" text="Endereço">
+         <font>
+            <Font name="System Bold Italic" size="17.0" />
+         </font>
+      </Label>
+      <TextField fx:id="ruaField" layoutX="518.0" layoutY="228.0" prefHeight="25.0" prefWidth="246.0" />
+      <Label layoutX="518.0" layoutY="211.0" prefHeight="17.0" prefWidth="192.0" text="Rua" />
+      <TextField fx:id="numeroField" layoutX="518.0" layoutY="277.0" prefHeight="25.0" prefWidth="246.0" />
+      <Label layoutX="518.0" layoutY="260.0" prefHeight="17.0" prefWidth="192.0" text="Número" />
+      <TextField fx:id="bairroField" layoutX="518.0" layoutY="325.0" prefHeight="25.0" prefWidth="246.0" />
+      <Label layoutX="518.0" layoutY="308.0" prefHeight="17.0" prefWidth="192.0" text="Bairro" />
+      <TextField fx:id="cidadeField" layoutX="518.0" layoutY="374.0" prefHeight="25.0" prefWidth="246.0" />
+      <Label layoutX="518.0" layoutY="357.0" prefHeight="17.0" prefWidth="192.0" text="Cidade" />
+      <TextField fx:id="estadoField" layoutX="518.0" layoutY="422.0" prefHeight="25.0" prefWidth="246.0" />
+      <Label layoutX="518.0" layoutY="405.0" prefHeight="17.0" prefWidth="192.0" text="Estado(sigla ex: RJ)" />
+      <TextField fx:id="cepField" layoutX="518.0" layoutY="470.0" prefHeight="25.0" prefWidth="246.0" />
+      <Label layoutX="518.0" layoutY="453.0" prefHeight="17.0" prefWidth="192.0" text="CEP" />
+      <Label layoutX="208.0" layoutY="401.0" prefHeight="17.0" prefWidth="192.0" text="Telefone" />
+      <TextField fx:id="celularField" layoutX="208.0" layoutY="463.0" prefHeight="25.0" prefWidth="246.0" />
+      <Label layoutX="208.0" layoutY="446.0" prefHeight="17.0" prefWidth="192.0" text="Celular" />
+      <TextField fx:id="emailField" layoutX="208.0" layoutY="508.0" prefHeight="25.0" prefWidth="246.0" />
+      <Label layoutX="208.0" layoutY="491.0" prefHeight="17.0" prefWidth="192.0" text="Email" />
+      <Label layoutX="208.0" layoutY="366.0" prefHeight="26.0" prefWidth="219.0" text="Contato">
+         <font>
+            <Font name="System Bold Italic" size="17.0" />
+         </font>
+      </Label>
+      <Button fx:id="cadastrarBT" layoutX="579.0" layoutY="609.0" mnemonicParsing="false" onAction="#confirmarCadastro" prefHeight="44.0" prefWidth="98.0" text="Cadastrar">
+         <font>
+            <Font size="17.0" />
+         </font>
+      </Button>
+      <Button fx:id="voltarBT" layoutX="110.0" layoutY="609.0" mnemonicParsing="false" onAction="#voltarTelaMedico" prefHeight="44.0" prefWidth="98.0" text="Voltar">
+         <font>
+            <Font size="17.0" />
+         </font>
+      </Button>
+      <Label fx:id="erroMsg" alignment="TOP_CENTER" layoutX="23.0" layoutY="78.0" prefHeight="108.0" prefWidth="1234.0" textFill="#ff1212">
+         <font>
+            <Font name="System Italic" size="17.0" />
+         </font>
+      </Label>
+      <Label layoutX="827.0" layoutY="176.0" prefHeight="26.0" prefWidth="219.0" text="Dados de Atendente">
+         <font>
+            <Font name="System Bold Italic" size="17.0" />
+         </font>
+      </Label>
+      <TextField fx:id="setorField" layoutX="827.0" layoutY="228.0" prefHeight="25.0" prefWidth="246.0" />
+      <Label layoutX="827.0" layoutY="211.0" prefHeight="17.0" prefWidth="192.0" text="Setor" />
+      <TextField fx:id="chSemanalField" layoutX="827.0" layoutY="277.0" prefHeight="25.0" prefWidth="246.0" />
+      <Label layoutX="827.0" layoutY="260.0" prefHeight="17.0" prefWidth="192.0" text="Carga horária semanal" />
+      <CheckBox fx:id="cirurgiaoBox" layoutX="827.0" layoutY="422.0" mnemonicParsing="false" text="Cirurgião (marque caso o médico seja cirurgião)" />
+      <TextField fx:id="crmField" layoutX="827.0" layoutY="326.0" prefHeight="25.0" prefWidth="246.0" />
+      <Label layoutX="827.0" layoutY="309.0" prefHeight="17.0" prefWidth="192.0" text="CRM" />
+      <TextField fx:id="areaEspecialidadeField" layoutX="827.0" layoutY="375.0" prefHeight="25.0" prefWidth="246.0" />
+      <Label layoutX="827.0" layoutY="358.0" prefHeight="17.0" prefWidth="192.0" text="Área de especialidade" />
+   </children>
+</AnchorPane>

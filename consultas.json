@@ -1,0 +1,56 @@
+[
+  {
+    "idConsulta": 1,
+    "idPaciente": 1,
+    "idMedico": 1,
+    "exameQueixa": "dor nas pernas",
+    "diagnostico": "ligamento rompido",
+    "prescricao": "Fisioterapia, dipirona ",
+    "indicacaoCirurgica": false
+  },
+  {
+    "idConsulta": 2,
+    "idPaciente": 1,
+    "idMedico": 1,
+    "exameQueixa": "dor",
+    "diagnostico": "estresse",
+    "prescricao": "remedio",
+    "indicacaoCirurgica": false
+  },
+  {
+    "idConsulta": 3,
+    "idPaciente": 4,
+    "idMedico": 1,
+    "exameQueixa": "Dor no ombro",
+    "diagnostico": "fratura",
+    "prescricao": "cirurgia, remedio",
+    "indicacaoCirurgica": true
+  },
+  {
+    "idConsulta": 4,
+    "idPaciente": 4,
+    "idMedico": 3,
+    "exameQueixa": "acidente",
+    "diagnostico": "quebrou ossos",
+    "prescricao": "Caso cirurgico",
+    "indicacaoCirurgica": true
+  },
+  {
+    "idConsulta": 5,
+    "idPaciente": 5,
+    "idMedico": 2,
+    "exameQueixa": "Acidente de moto, perna quebrada",
+    "diagnostico": "várias fraturas",
+    "prescricao": "Paciente precisa de cirurgia imediata",
+    "indicacaoCirurgica": true
+  },
+  {
+    "idConsulta": 6,
+    "idPaciente": 10,
+    "idMedico": 3,
+    "exameQueixa": "dor no braço",
+    "diagnostico": "rompeu ligamento",
+    "prescricao": "Paciente precisa de cirurgia",
+    "indicacaoCirurgica": true
+  }
+]

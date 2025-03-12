@@ -1,0 +1,200 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Pacientes>
+    <Paciente>
+        <contato>
+            <celular>22999998618</celular>
+            <email>ffcguilherme@gmail.com</email>
+            <telefone>22</telefone>
+        </contato>
+        <dataNascimento>2024-11-13T00:00:00-03:00</dataNascimento>
+        <endereco>
+            <bairro>riv</bairro>
+            <cep>27935678</cep>
+            <cidade>Macae</cidade>
+            <estado>RJ</estado>
+            <numero>56</numero>
+            <rua>vila C</rua>
+        </endereco>
+        <genero>MASCULINO</genero>
+        <nomeCompleto>Guilherme</nomeCompleto>
+        <dataCadastro>2024-11-27T00:00:00-03:00</dataCadastro>
+        <historicoConsultasMedicas>
+            <historicoConsultasMedicas>
+                <diagnostico>estresse</diagnostico>
+                <exameQueixa>dor</exameQueixa>
+                <idConsulta>2</idConsulta>
+                <idMedico>1</idMedico>
+                <idPaciente>1</idPaciente>
+                <indicacaoCirurgica>false</indicacaoCirurgica>
+                <prescricao>remedio</prescricao>
+            </historicoConsultasMedicas>
+        </historicoConsultasMedicas>
+        <idPaciente>1</idPaciente>
+        <idade>25</idade>
+        <obsGeral>asdasdasd</obsGeral>
+    </Paciente>
+    <Paciente>
+        <contato>
+            <celular>22998798768</celular>
+            <email>ju123@gmail.com</email>
+            <telefone></telefone>
+        </contato>
+        <dataNascimento>1997-11-06T00:00:00-02:00</dataNascimento>
+        <endereco>
+            <bairro>Aroeira</bairro>
+            <cep>28937465</cep>
+            <cidade>Macaï¿½ </cidade>
+            <estado>RJ</estado>
+            <numero>32</numero>
+            <rua>Rua 3</rua>
+        </endereco>
+        <genero>FEMININO</genero>
+        <nomeCompleto>Julia</nomeCompleto>
+        <dataCadastro>2024-11-29T00:00:00-03:00</dataCadastro>
+        <historicoConsultasMedicas>
+            <historicoConsultasMedicas>
+                <diagnostico>fratura</diagnostico>
+                <exameQueixa>Dor no ombro</exameQueixa>
+                <idConsulta>3</idConsulta>
+                <idMedico>1</idMedico>
+                <idPaciente>4</idPaciente>
+                <indicacaoCirurgica>true</indicacaoCirurgica>
+                <prescricao>cirurgia, remedio</prescricao>
+            </historicoConsultasMedicas>
+            <historicoConsultasMedicas>
+                <diagnostico>quebrou ossos</diagnostico>
+                <exameQueixa>acidente</exameQueixa>
+                <idConsulta>4</idConsulta>
+                <idMedico>3</idMedico>
+                <idPaciente>4</idPaciente>
+                <indicacaoCirurgica>true</indicacaoCirurgica>
+                <prescricao>Caso cirurgico</prescricao>
+            </historicoConsultasMedicas>
+        </historicoConsultasMedicas>
+        <idPaciente>4</idPaciente>
+        <idade>27</idade>
+        <obsGeral></obsGeral>
+    </Paciente>
+    <Paciente>
+        <contato>
+            <celular>22987678794</celular>
+            <email>josejames@gmail.com</email>
+            <telefone></telefone>
+        </contato>
+        <dataNascimento>1998-11-19T00:00:00-02:00</dataNascimento>
+        <endereco>
+            <bairro>Bairro da Gloria</bairro>
+            <cep>278987499</cep>
+            <cidade>Macaï¿½</cidade>
+            <estado>RJ</estado>
+            <numero>32</numero>
+            <rua>Rua 4</rua>
+        </endereco>
+        <genero>MASCULINO</genero>
+        <nomeCompleto>Jose</nomeCompleto>
+        <dataCadastro>2024-11-29T00:00:00-03:00</dataCadastro>
+        <historicoConsultasMedicas>
+            <historicoConsultasMedicas>
+                <diagnostico>várias fraturas</diagnostico>
+                <exameQueixa>Acidente de moto, perna quebrada</exameQueixa>
+                <idConsulta>5</idConsulta>
+                <idMedico>2</idMedico>
+                <idPaciente>5</idPaciente>
+                <indicacaoCirurgica>true</indicacaoCirurgica>
+                <prescricao>Paciente precisa de cirurgia imediata</prescricao>
+            </historicoConsultasMedicas>
+        </historicoConsultasMedicas>
+        <idPaciente>5</idPaciente>
+        <idade>23</idade>
+        <obsGeral></obsGeral>
+    </Paciente>
+    <Paciente>
+        <contato>
+            <celular>22999888773</celular>
+            <email>guipinheiro@gmail.com</email>
+            <telefone></telefone>
+        </contato>
+        <dataNascimento>1998-11-17T00:00:00-02:00</dataNascimento>
+        <endereco>
+            <bairro>Riviera</bairro>
+            <cep>27839039</cep>
+            <cidade>Macaï¿½</cidade>
+            <estado>RJ</estado>
+            <numero>67</numero>
+            <rua>Rua Vila A</rua>
+        </endereco>
+        <genero>MASCULINO</genero>
+        <nomeCompleto>Guilherme Pinheiro</nomeCompleto>
+        <dataCadastro>2024-11-29T00:00:00-03:00</dataCadastro>
+        <historicoConsultasMedicas/>
+        <idPaciente>6</idPaciente>
+        <idade>26</idade>
+        <obsGeral></obsGeral>
+    </Paciente>
+    <Paciente>
+        <contato>
+            <celular>22989893832</celular>
+            <email>osvaldo@hotmail.com</email>
+            <telefone></telefone>
+        </contato>
+        <dataNascimento>2011-12-28T00:00:00-02:00</dataNascimento>
+        <endereco>
+            <bairro>Centro</bairro>
+            <cep>3898238</cep>
+            <cidade>Macae</cidade>
+            <estado>RJ</estado>
+            <numero>12</numero>
+            <rua>rua</rua>
+        </endereco>
+        <genero>MASCULINO</genero>
+        <nomeCompleto>Osvaldo</nomeCompleto>
+        <dataCadastro>2024-12-09T00:00:00-03:00</dataCadastro>
+        <historicoConsultasMedicas>
+            <historicoConsultasMedicas>
+                <diagnostico>Rompimento do ligamento </diagnostico>
+                <exameQueixa>Dor no calcanhar</exameQueixa>
+                <idConsulta>5</idConsulta>
+                <idMedico>3</idMedico>
+                <idPaciente>9</idPaciente>
+                <indicacaoCirurgica>true</indicacaoCirurgica>
+                <prescricao>Caso Cirurgico</prescricao>
+            </historicoConsultasMedicas>
+        </historicoConsultasMedicas>
+        <idPaciente>9</idPaciente>
+        <idade>32</idade>
+        <obsGeral></obsGeral>
+    </Paciente>
+    <Paciente>
+        <contato>
+            <celular>22999998765</celular>
+            <email>thiago@gmail.com</email>
+            <telefone></telefone>
+        </contato>
+        <dataNascimento>2024-12-09T00:00:00-03:00</dataNascimento>
+        <endereco>
+            <bairro>Centro</bairro>
+            <cep>28371832</cep>
+            <cidade>Macaé</cidade>
+            <estado>RJ</estado>
+            <numero>12</numero>
+            <rua>rua</rua>
+        </endereco>
+        <genero>MASCULINO</genero>
+        <nomeCompleto>Thiago</nomeCompleto>
+        <dataCadastro>2024-12-09T00:00:00-03:00</dataCadastro>
+        <historicoConsultasMedicas>
+            <historicoConsultasMedicas>
+                <diagnostico>rompeu ligamento</diagnostico>
+                <exameQueixa>dor no braço</exameQueixa>
+                <idConsulta>6</idConsulta>
+                <idMedico>3</idMedico>
+                <idPaciente>10</idPaciente>
+                <indicacaoCirurgica>true</indicacaoCirurgica>
+                <prescricao>Paciente precisa de cirurgia</prescricao>
+            </historicoConsultasMedicas>
+        </historicoConsultasMedicas>
+        <idPaciente>10</idPaciente>
+        <idade>18</idade>
+        <obsGeral></obsGeral>
+    </Paciente>
+</Pacientes>

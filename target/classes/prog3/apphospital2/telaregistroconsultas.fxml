@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.CheckBox?>
+<?import javafx.scene.control.ChoiceBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane id="AnchorPane" prefHeight="720.0" prefWidth="1280.0" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="prog3.apphospital2.TelaRegistroConsultasController">
+   <children>
+      <Label alignment="TOP_CENTER" layoutX="331.0" layoutY="8.0" prefHeight="17.0" prefWidth="619.0" text="REGISTRAR CONSULTA">
+         <font>
+            <Font name="System Bold" size="48.0" />
+         </font>
+      </Label>
+      <Label layoutX="405.0" layoutY="477.0" prefHeight="17.0" prefWidth="192.0" text="Paciente Consultado" />
+      <Label alignment="TOP_CENTER" layoutX="531.0" layoutY="176.0" prefHeight="26.0" prefWidth="219.0" text="Informações">
+         <font>
+            <Font name="System Bold Italic" size="17.0" />
+         </font>
+      </Label>
+      <TextField fx:id="exameQueixaField" alignment="TOP_LEFT" layoutX="405.0" layoutY="230.0" prefHeight="57.0" prefWidth="471.0" />
+      <Label layoutX="405.0" layoutY="211.0" prefHeight="17.0" prefWidth="192.0" text="Queixa principal" />
+      <Button fx:id="registrarBT" layoutX="579.0" layoutY="609.0" mnemonicParsing="false" onAction="#registrarConsulta" prefHeight="44.0" prefWidth="98.0" text="Registrar">
+         <font>
+            <Font size="17.0" />
+         </font>
+      </Button>
+      <Button fx:id="voltarBT" layoutX="110.0" layoutY="609.0" mnemonicParsing="false" onAction="#voltarTelaConsultas" prefHeight="44.0" prefWidth="98.0" text="Voltar">
+         <font>
+            <Font size="17.0" />
+         </font>
+      </Button>
+      <Label fx:id="erroMsg" alignment="TOP_CENTER" layoutX="23.0" layoutY="78.0" prefHeight="57.0" prefWidth="1234.0" textFill="#ff1212">
+         <font>
+            <Font name="System Italic" size="17.0" />
+         </font>
+      </Label>
+      <TextField fx:id="diagnosticoField" alignment="TOP_LEFT" layoutX="405.0" layoutY="317.0" prefHeight="57.0" prefWidth="471.0" />
+      <Label layoutX="405.0" layoutY="300.0" prefHeight="17.0" prefWidth="192.0" text="Diagnóstico" />
+      <TextField fx:id="prescricaoField" alignment="TOP_LEFT" layoutX="405.0" layoutY="405.0" prefHeight="57.0" prefWidth="471.0" />
+      <Label layoutX="405.0" layoutY="388.0" prefHeight="17.0" prefWidth="192.0" text="Prescrição" />
+      <CheckBox fx:id="indicacaoCirurgicaField" layoutX="681.0" layoutY="495.0" mnemonicParsing="false" prefHeight="17.0" prefWidth="139.0" text="Indicação Cirúrgica" />
+      <ChoiceBox fx:id="idPacienteBox" layoutX="405.0" layoutY="498.0" prefHeight="25.0" prefWidth="219.0" />
+      <Label layoutX="405.0" layoutY="530.0" prefHeight="17.0" prefWidth="192.0" text="Medico Responsável" />
+      <ChoiceBox fx:id="idMedicoBox" layoutX="405.0" layoutY="551.0" prefHeight="25.0" prefWidth="219.0" />
+   </children>
+</AnchorPane>

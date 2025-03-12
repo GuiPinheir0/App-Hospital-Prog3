@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="720.0" prefWidth="1280.0" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="prog3.apphospital2.TelaHistoricoPacienteController">
+   <children>
+      <TableView fx:id="tabelaConsultas" layoutX="82.0" layoutY="71.0" prefHeight="488.0" prefWidth="1117.0">
+        <columns>
+          <TableColumn fx:id="idConsultaC" prefWidth="77.0" text="ID Consulta" />
+            <TableColumn fx:id="idPacienteC" text="ID Paciente" />
+            <TableColumn fx:id="idMedicoC" prefWidth="83.0" text="ID Médico" />
+            <TableColumn fx:id="queixaPrincipalC" prefWidth="237.0" text="Queixa principal" />
+            <TableColumn fx:id="diagnosticoC" prefWidth="275.0" text="diagnostico" />
+            <TableColumn fx:id="prescricaoC" prefWidth="241.0" text="prescricao" />
+            <TableColumn fx:id="indicacaoCirurgicaC" prefWidth="123.0" text="Indicação Cirurgica" />
+        </columns>
+      </TableView>
+      <Button fx:id="voltar" layoutX="82.0" layoutY="595.0" mnemonicParsing="false" onAction="#voltarTelaPacientes" prefHeight="25.0" prefWidth="116.0" text="Voltar" />
+      <Label alignment="TOP_CENTER" layoutX="331.0" prefHeight="17.0" prefWidth="619.0" text="HISTÓRICO">
+         <font>
+            <Font name="System Bold" size="48.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>

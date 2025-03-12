@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Medicos>
+    <Medico>
+        <contato>
+            <celular>22998767898</celular>
+            <email>drmarcos77@gmail.com</email>
+            <telefone>2229982839</telefone>
+        </contato>
+        <dataNascimento>1989-11-21T00:00:00-02:00</dataNascimento>
+        <endereco>
+            <bairro>Vale dos cristais</bairro>
+            <cep>278983748</cep>
+            <cidade>Macaé</cidade>
+            <estado>RJ</estado>
+            <numero>43</numero>
+            <rua>rua 13</rua>
+        </endereco>
+        <genero>MASCULINO</genero>
+        <nomeCompleto>Marcos</nomeCompleto>
+        <chSemanal>20</chSemanal>
+        <dadoPessoal>
+            <contato>
+                <celular>22998767898</celular>
+                <email>drmarcos@gmail.com</email>
+                <telefone>2229982839</telefone>
+            </contato>
+            <dataNascimento>1989-11-21T00:00:00-02:00</dataNascimento>
+            <endereco>
+                <bairro>Vale dos cristais</bairro>
+                <cep>278983748</cep>
+                <cidade>Macaé</cidade>
+                <estado>RJ</estado>
+                <numero>43</numero>
+                <rua>rua 13</rua>
+            </endereco>
+            <genero>MASCULINO</genero>
+            <nomeCompleto>Marcos</nomeCompleto>
+        </dadoPessoal>
+        <setor>Pronto socorro</setor>
+        <areasEspecialidade>cardio</areasEspecialidade>
+        <cirurgiao>true</cirurgiao>
+        <idMedico>1</idMedico>
+        <numeroCRM>123456</numeroCRM>
+    </Medico>
+    <Medico>
+        <contato>
+            <celular>2 8899803494092</celular>
+            <email>martinha@mgaidmi</email>
+            <telefone></telefone>
+        </contato>
+        <dataNascimento>1966-04-30T00:00:00-03:00</dataNascimento>
+        <endereco>
+            <bairro>riviera</bairro>
+            <cep>213123213</cep>
+            <cidade>macaé</cidade>
+            <estado>rj</estado>
+            <numero>12</numero>
+            <rua>rua vila d</rua>
+        </endereco>
+        <genero>FEMININO</genero>
+        <nomeCompleto>Martinha</nomeCompleto>
+        <chSemanal>30</chSemanal>
+        <dadoPessoal>
+            <contato>
+                <celular>2 8899803494092</celular>
+                <email>martinha@mgaidmi</email>
+                <telefone></telefone>
+            </contato>
+            <dataNascimento>1966-04-30T00:00:00-03:00</dataNascimento>
+            <endereco>
+                <bairro>riviera</bairro>
+                <cep>213123213</cep>
+                <cidade>macaé</cidade>
+                <estado>rj</estado>
+                <numero>12</numero>
+                <rua>rua vila d</rua>
+            </endereco>
+            <genero>FEMININO</genero>
+            <nomeCompleto>Martinha</nomeCompleto>
+        </dadoPessoal>
+        <setor>Cirurgia</setor>
+        <areasEspecialidade>neuro</areasEspecialidade>
+        <cirurgiao>true</cirurgiao>
+        <idMedico>2</idMedico>
+        <numeroCRM>123457</numeroCRM>
+    </Medico>
+    <Medico>
+        <contato>
+            <celular>22999988888</celular>
+            <email>drpedro@gmail.com</email>
+            <telefone></telefone>
+        </contato>
+        <dataNascimento>1989-12-12T00:00:00-02:00</dataNascimento>
+        <endereco>
+            <bairro>Vale dos Cristais</bairro>
+            <cep>27894839</cep>
+            <cidade>Macaé </cidade>
+            <estado>RJ</estado>
+            <numero>23</numero>
+            <rua>Rua 15</rua>
+        </endereco>
+        <genero>MASCULINO</genero>
+        <nomeCompleto>Pedro</nomeCompleto>
+        <chSemanal>20</chSemanal>
+        <dadoPessoal>
+            <contato>
+                <celular>22999988888</celular>
+                <email>drpedro@gmail.com</email>
+                <telefone></telefone>
+            </contato>
+            <dataNascimento>1989-12-12T00:00:00-02:00</dataNascimento>
+            <endereco>
+                <bairro>Vale dos Cristais</bairro>
+                <cep>27894839</cep>
+                <cidade>Macaé </cidade>
+                <estado>RJ</estado>
+                <numero>23</numero>
+                <rua>Rua 15</rua>
+            </endereco>
+            <genero>MASCULINO</genero>
+            <nomeCompleto>Pedro</nomeCompleto>
+        </dadoPessoal>
+        <setor>Ortopedia</setor>
+        <areasEspecialidade>Ortopedia</areasEspecialidade>
+        <cirurgiao>false</cirurgiao>
+        <idMedico>3</idMedico>
+        <numeroCRM>98765</numeroCRM>
+    </Medico>
+</Medicos>

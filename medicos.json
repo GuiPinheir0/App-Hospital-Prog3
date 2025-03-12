@@ -1,0 +1,128 @@
+[
+  {
+    "idMedico": 1,
+    "numeroCRM": 123456,
+    "areasEspecialidade": "cardio",
+    "cirurgiao": true,
+    "setor": "Pronto socorro",
+    "chSemanal": 20,
+    "dadoPessoal": {
+      "nomeCompleto": "Marcos",
+      "dataNascimento": "1989-11-21",
+      "endereco": {
+        "rua": "rua 13",
+        "numero": 43,
+        "bairro": "Vale dos cristais",
+        "cidade": "Macaé",
+        "estado": "RJ",
+        "cep": 278983748
+      },
+      "contato": {
+        "telefone": "2229982839",
+        "celular": "22998767898",
+        "email": "drmarcos@gmail.com"
+      },
+      "genero": "MASCULINO"
+    },
+    "nomeCompleto": "Marcos",
+    "dataNascimento": "1989-11-21",
+    "endereco": {
+      "rua": "rua 13",
+      "numero": 43,
+      "bairro": "Vale dos cristais",
+      "cidade": "Macaé",
+      "estado": "RJ",
+      "cep": 278983748
+    },
+    "contato": {
+      "telefone": "2229982839",
+      "celular": "22998767898",
+      "email": "drmarcos77@gmail.com"
+    },
+    "genero": "MASCULINO"
+  },
+  {
+    "idMedico": 2,
+    "numeroCRM": 123457,
+    "areasEspecialidade": "neuro",
+    "cirurgiao": true,
+    "setor": "Cirurgia",
+    "chSemanal": 30,
+    "dadoPessoal": {
+      "nomeCompleto": "Martinha",
+      "dataNascimento": "1966-04-30",
+      "endereco": {
+        "rua": "rua vila d",
+        "numero": 12,
+        "bairro": "riviera",
+        "cidade": "macaé",
+        "estado": "rj",
+        "cep": 213123213
+      },
+      "contato": {
+        "telefone": "",
+        "celular": "2 8899803494092",
+        "email": "martinha@mgaidmi"
+      },
+      "genero": "FEMININO"
+    },
+    "nomeCompleto": "Martinha",
+    "dataNascimento": "1966-04-30",
+    "endereco": {
+      "rua": "rua vila d",
+      "numero": 12,
+      "bairro": "riviera",
+      "cidade": "macaé",
+      "estado": "rj",
+      "cep": 213123213
+    },
+    "contato": {
+      "telefone": "",
+      "celular": "2 8899803494092",
+      "email": "martinha@mgaidmi"
+    },
+    "genero": "FEMININO"
+  },
+  {
+    "idMedico": 3,
+    "numeroCRM": 98765,
+    "areasEspecialidade": "Ortopedia",
+    "cirurgiao": false,
+    "setor": "Ortopedia",
+    "chSemanal": 20,
+    "dadoPessoal": {
+      "nomeCompleto": "Pedro",
+      "dataNascimento": "1989-12-12",
+      "endereco": {
+        "rua": "Rua 15",
+        "numero": 23,
+        "bairro": "Vale dos Cristais",
+        "cidade": "Macaé ",
+        "estado": "RJ",
+        "cep": 27894839
+      },
+      "contato": {
+        "telefone": "",
+        "celular": "22999988888",
+        "email": "drpedro@gmail.com"
+      },
+      "genero": "MASCULINO"
+    },
+    "nomeCompleto": "Pedro",
+    "dataNascimento": "1989-12-12",
+    "endereco": {
+      "rua": "Rua 15",
+      "numero": 23,
+      "bairro": "Vale dos Cristais",
+      "cidade": "Macaé ",
+      "estado": "RJ",
+      "cep": 27894839
+    },
+    "contato": {
+      "telefone": "",
+      "celular": "22999988888",
+      "email": "drpedro@gmail.com"
+    },
+    "genero": "MASCULINO"
+  }
+]

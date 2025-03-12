@@ -1,0 +1,122 @@
+[
+  {
+    "idEnfermeiro": 1,
+    "treinadoOpRX": true,
+    "setor": "Raio X",
+    "chSemanal": 30,
+    "dadoPessoal": {
+      "nomeCompleto": "Laís F",
+      "dataNascimento": "2000-11-08",
+      "endereco": {
+        "rua": "Rua 14",
+        "numero": 123,
+        "bairro": "Centro",
+        "cidade": "Macaé",
+        "estado": "RJ",
+        "cep": 26738948
+      },
+      "contato": {
+        "telefone": "2227768938",
+        "celular": "22988765543",
+        "email": "laisenfermagem@gmail.com"
+      },
+      "genero": "FEMININO"
+    },
+    "nomeCompleto": "Laís F",
+    "dataNascimento": "2000-11-08",
+    "endereco": {
+      "rua": "Rua 14",
+      "numero": 123,
+      "bairro": "Centro",
+      "cidade": "Macaé",
+      "estado": "RJ",
+      "cep": 26738948
+    },
+    "contato": {
+      "telefone": "2227768938",
+      "celular": "22988765543",
+      "email": "lais123@gmail.com"
+    },
+    "genero": "FEMININO"
+  },
+  {
+    "idEnfermeiro": 2,
+    "treinadoOpRX": false,
+    "setor": "Pronto socorro",
+    "chSemanal": 56,
+    "dadoPessoal": {
+      "nomeCompleto": "Ruan",
+      "dataNascimento": "1992-11-26",
+      "endereco": {
+        "rua": "Rua R",
+        "numero": 89,
+        "bairro": "Bairro da Gloria",
+        "cidade": "Macaé",
+        "estado": "RJ ",
+        "cep": 389289321
+      },
+      "contato": {
+        "telefone": "",
+        "celular": "22988988998",
+        "email": "ruangameplays@gmail.com"
+      },
+      "genero": "MASCULINO"
+    },
+    "nomeCompleto": "Ruan",
+    "dataNascimento": "1992-11-26",
+    "endereco": {
+      "rua": "Rua R",
+      "numero": 89,
+      "bairro": "Bairro da Gloria",
+      "cidade": "Macaé",
+      "estado": "RJ ",
+      "cep": 389289321
+    },
+    "contato": {
+      "telefone": "",
+      "celular": "22988988998",
+      "email": "ruangameplays@gmail.com"
+    },
+    "genero": "MASCULINO"
+  },
+  {
+    "idEnfermeiro": 3,
+    "treinadoOpRX": true,
+    "setor": "Geral",
+    "chSemanal": 34,
+    "dadoPessoal": {
+      "nomeCompleto": "Gabriela",
+      "dataNascimento": "1997-12-18",
+      "endereco": {
+        "rua": "rua A",
+        "numero": 2,
+        "bairro": "Novo Hrizonte",
+        "cidade": "Macaé",
+        "estado": "RJ",
+        "cep": 27893890
+      },
+      "contato": {
+        "telefone": "",
+        "celular": "22989899999",
+        "email": "gabrielaenf@gmail.com"
+      },
+      "genero": "FEMININO"
+    },
+    "nomeCompleto": "Gabriela",
+    "dataNascimento": "1997-12-18",
+    "endereco": {
+      "rua": "rua A",
+      "numero": 2,
+      "bairro": "Novo Hrizonte",
+      "cidade": "Macaé",
+      "estado": "RJ",
+      "cep": 27893890
+    },
+    "contato": {
+      "telefone": "",
+      "celular": "22989899999",
+      "email": "gabrielaenf@gmail.com"
+    },
+    "genero": "FEMININO"
+  }
+]
